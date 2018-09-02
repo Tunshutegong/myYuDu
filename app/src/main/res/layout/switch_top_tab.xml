@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/id_switch_tab_ll"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal" 
+        android:baselineAligned="false"
+        android:background="@color/white"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/tv_new"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="最新"
+                android:textColor="@color/new_hui_text"
+                />
+
+
+            <TextView
+                android:id="@+id/tv_hot"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="最热"
+                android:textColor="@color/new_hui_text"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        >
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/mTabLineIv"
+        android:layout_width="20dp"
+        android:layout_height="1.5dp"
+        android:background="#529bff"
+        android:layout_marginLeft="40dp"
+        />
+
+
+    <View
+        style="@style/blank_line"
+        android:background="@color/book_hui_color"
+        />
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--底部栏字体颜色-->
+    <!--白色背景颜色-->
+    <color name="white">#ffffff</color>
+    <!--黑字-->
+    <color name="black_text">#3d3331</color>
+    <!--蓝色字体-->
+    <color name="blue_text">#529bff</color>
+    <!--灰色字体-->
+    <color name="hui_text">#ff87ba</color>
+    <!--最新  最热灰色字体-->
+    <color name="new_hui_text">#919191</color>
+    <!--点赞 评论颜色-->
+    <color name="laud_hui_text">#949494</color>
+    <!--红色-->
+    <color name="red_text">#e02020</color>
+    <!--背景色-->
+    <color name="bg_color">#f6f6f6</color>
+    <!--暗灰色-->
+    <color name="an_hui_color">#cec4c2</color>
+    <!--阅读的背景色-->
+    <color name="book_hui_color">#d8c8a7</color>
+    <!--暗白色-->
+    <color name="an_white">#f6f6f6</color>
+    <!--hongse-->
+    <color name="red">#e8554d</color>
+    <!--浅黑色-->
+    <color name="qian_blaack">#555555</color>
+
+
+
+
+    <color name="read_font_default">#2C2C2C</color>
+    <color name="read_bg_default">#CEC29C</color>
+    <color name="read_bg_1">#CCEBCC</color>
+    <color name="read_font_1">#2F332D</color>
+    <color name="read_font_2">#92918C</color>
+    <color name="read_font_3">#383429</color>
+    <color name="read_font_4">#627176</color>
+    <color name="read_bg_2">#37342F</color>
+    <color name="read_bg_3">#D1CEC5</color>
+    <color name="read_bg_4">#001C27</color>
+
+    <color name="read_dialog_bg">#2C2C2C</color>
+
+    <color name="loading_book_bg_color">#ffcfebd3</color>
+
+
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorPageBg">#f2f4f5</color>
+    <color name="colorTheme">#ffce3d3a</color>
+    <color name="colorContent">#ff333333</color>
+    <color name="colorRateRed">#FB5B81</color>
+    <color name="colorWhite">#ffffffff</color>
+    <color name="tabBackground">#777D7D7D</color>
+    <color name="bg_list_item_book_section">#33757575</color>
+    <color name="textPrimary">#212121</color>
+
+
+
+
+    <color name="btn_bg_press">#c1c1c1</color>
+    <color name="btn_bg_press_2">#aaaaaa</color>
+
+    <color name="tv_btn_normal_black">#737373</color>
+    <color name="tv_btn_press_black">#adadad</color>
+    <color name="tv_btn_black">#343434</color>
+    <color name="bg_library">#f1f1f1</color>
+
+    <color name="tv_text_addshelf_nor">#ffffff</color>
+    <color name="tv_text_addshelf_pre">#7891A5</color>
+    <color name="tv_text_addshelf_disable">#7891A5</color>
+    <color name="tv_text_addshelf_deep_pre">#587A8A</color>
+
+    <color name="read_menu_container_bg">#fa263238</color>
+    <color name="read_menu_text">@color/md_blue_grey_400</color>
+    <color name="md_blue_grey_50">#ffeceff1</color>
+    <color name="md_blue_grey_100">#ffcfd8dc</color>
+    <color name="md_blue_grey_200">#ffb0bec5</color>
+    <color name="md_blue_grey_300">#ff90a4ae</color>
+    <color name="md_blue_grey_400">#ff78909c</color>
+    <color name="md_blue_grey_500">#ff607d8b</color>
+    <color name="md_blue_grey_600">#ff546e7a</color>
+    <color name="md_blue_grey_700">#ff455a64</color>
+    <color name="md_blue_grey_800">#ff37474f</color>
+    <color name="md_blue_grey_900">#ff263238</color>
+    <color name="read_text_primary">#ffcfd8dc</color>
+    <color name="text_read">#ffcfd8dc</color>
+    <!--white-->
+    <color name="read_theme_white_page_background">#F5F4F0</color>
+    <color name="read_theme_white_text">#3D3D3D</color>
+    <!--amber-->
+    <color name="read_theme_amber_page_background">#C5B284</color>
+    <color name="read_theme_amber_text">#3A342B</color>
+    <!--green-->
+    <color name="read_theme_green_page_background">#CCE8CF</color>
+    <color name="read_theme_green_text">#333333</color>
+    <!--brown-->
+    <color name="read_theme_brown_page_background">#3A3131</color>
+    <color name="read_theme_brown_text">#95938F</color>
+    <!--black-->
+    <color name="read_theme_black_page_background">#001C29</color>
+    <color name="read_theme_black_text">#637079</color>
+    <!--night mode-->
+    <color name="read_theme_night_page_background">#001622</color>
+    <color name="read_theme_night_text">#204353</color>
+    <!-- default-->
+    <color name="read_theme_default_page_background">#CEC29C</color>
+    <color name="read_theme_default_text">#212121</color>
+</resources>

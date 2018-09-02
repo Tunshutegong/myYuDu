@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdv"
+        android:layout_width="80dp"
+        android:layout_height="110dp"
+        fresco:placeholderImage="@drawable/book_default_ic"
+        />
+    <TextView
+        android:id="@+id/tvAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="作者名字"
+        android:textSize="16dp"
+        android:textColor="@color/black_text"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/tvPingLun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#998f8d"
+        android:layout_marginTop="5dp"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:background="#f0e6e5"
+        android:layout_marginTop="20dp"
+        />
+
+
+</LinearLayout>

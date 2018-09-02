@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tab_bookcase"
+        android:icon="@drawable/ic_bookshelf_nor"
+        android:title="书架"/>
+
+
+    <item
+        android:id="@+id/tab_explore"
+        android:icon="@drawable/ic_stacks_nor"
+        android:title="书库"/>
+    <item
+        android:id="@+id/tab_jingxuan"
+        android:icon="@drawable/ic_hot_nor"
+        android:title="发现"/>
+
+    <item
+        android:id="@+id/tab_mine"
+        android:icon="@drawable/ic_find_normal"
+        android:title="我的"/>
+
+</menu>

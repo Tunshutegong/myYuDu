@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+    <RelativeLayout
+        android:id="@+id/rlItem"
+        android:layout_width="90dp"
+        android:layout_height="130dp"
+        >
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="90dp"
+            android:layout_height="130dp"
+            android:src="@drawable/book_shelf_cover_bg_3"
+            android:clickable="true"
+            />
+        <TextView
+            android:id="@+id/tvBookName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="我是书名我是书名"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:textSize="12sp"
+            android:layout_centerInParent="true"
+            android:maxLines="2"
+            android:ellipsize="end"
+            />
+        <ImageView
+            android:id="@+id/imgChose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_bookcase_checkbox"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

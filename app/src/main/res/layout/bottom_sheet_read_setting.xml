@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/read_menu_container_bg"
+    android:orientation="vertical"
+    android:paddingBottom="28dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="亮度: "
+            android:textColor="#CEC29C"
+            android:textSize="14dp"
+            />
+
+        <TextView
+            android:id="@+id/tvlightminus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="亮度-"
+            android:textSize="12dp"
+            />
+
+
+
+        <SeekBar
+            android:id="@+id/read_sb_lightness_progress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="255"
+            android:maxHeight="1dp"
+            android:minHeight="1dp"
+            android:progressDrawable="@drawable/bg_read_seek_bar"
+            android:thumb="@drawable/thumb_read_seek_bar"/>
+
+        <TextView
+            android:id="@+id/tvlightplus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:text="亮度+"
+            android:textSize="12dp"
+            />
+
+        <TextView
+            android:id="@+id/read_tv_lightness_system"
+            style="@style/Read.Setting.Button"
+            android:text="系统"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="字体: "
+            android:textColor="#CEC29C"
+            android:textSize="14dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:id="@+id/read_tv_font_size_minus"
+            style="@style/Read.Setting.Button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="A-"/>
+
+        <TextView
+            android:id="@+id/read_tv_font_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="@color/read_text_primary"
+            android:textSize="@dimen/text_size_medium"
+            tools:text="45"/>
+
+        <TextView
+            android:id="@+id/read_tv_font_size_plus"
+            style="@style/Read.Setting.Button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="A+"
+            android:textSize="@dimen/text_size_large"/>
+
+        <TextView
+            android:id="@+id/read_tv_font_size_default"
+            style="@style/Read.Setting.Button"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:text="默认"/>
+
+        <TextView
+            android:id="@+id/read_tv_font_setting"
+            style="@style/Read.Setting.Button"
+            android:text="字体"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="翻页: "
+            android:textColor="#CEC29C"
+            android:textSize="14dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:id="@+id/read_tv_flip_over_cover"
+            style="@style/Read.Setting.Button"
+            android:layout_weight="1"
+            android:text="覆盖"/>
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/read_tv_flip_over_simulation"
+            style="@style/Read.Setting.Button"
+            android:layout_weight="1"
+            android:text="仿真"/>
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/read_tv_flip_over_slide"
+            style="@style/Read.Setting.Button"
+            android:layout_weight="1"
+            android:text="滑动"/>
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/read_tv_flip_over_none"
+            style="@style/Read.Setting.Button"
+            android:layout_weight="1"
+            android:text="无"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主题: "
+            android:textColor="#CEC29C"
+            android:textSize="14dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <com.read.setting.ShapeView
+            style="@style/Read.Setting.ThemeView"
+            android:id="@+id/read_theme_white"
+            app:super_solidColor="@color/read_theme_white_page_background"
+            app:super_solidColor_selected="@color/read_theme_white_page_background"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <com.read.setting.ShapeView
+            style="@style/Read.Setting.ThemeView"
+            android:id="@+id/read_theme_amber"
+            app:super_solidColor="@color/read_theme_amber_page_background"
+            app:super_solidColor_selected="@color/read_theme_amber_page_background"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"/>
+
+        <com.read.setting.ShapeView
+            style="@style/Read.Setting.ThemeView"
+            android:id="@+id/read_theme_green"
+            app:super_solidColor="@color/read_theme_green_page_background"
+            app:super_solidColor_selected="@color/read_theme_green_page_background"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <com.read.setting.ShapeView
+            style="@style/Read.Setting.ThemeView"
+            android:id="@+id/read_theme_brown"
+            app:super_solidColor="@color/read_theme_brown_page_background"
+            app:super_solidColor_selected="@color/read_theme_brown_page_background"/>
+
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <com.read.setting.ShapeView
+            style="@style/Read.Setting.ThemeView"
+            android:id="@+id/read_theme_black"
+            app:super_solidColor="@color/read_theme_black_page_background"
+            app:super_solidColor_selected="@color/read_theme_black_page_background"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
