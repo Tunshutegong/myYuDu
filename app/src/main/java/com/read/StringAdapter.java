@@ -63,6 +63,7 @@ public abstract class StringAdapter implements PageLoaderAdapter {
         SparseArray<ArrayList<String>> pageArray = new SparseArray<>();
         List<String> lines = new ArrayList<>();
         if (source != null && source.length() > 0) {
+            Log.e("yy","------------->"+source);
             String[] split = source.split("\n");
             //剩余高度
             int rHeight = visibleHeight + intervalSize + paragraphSize;

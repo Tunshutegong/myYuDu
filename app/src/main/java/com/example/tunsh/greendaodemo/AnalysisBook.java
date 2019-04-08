@@ -71,7 +71,7 @@ public class AnalysisBook {
             if (m.find()) {
                 if (contentBuilder.toString().length() > 0) {
                     if(contentBuilder.toString().replaceAll("　","").trim().length()>0){
-                        Log.e("zs","------->"+title);
+                        Log.e("yy","------->"+title);
                         saveDurChapterContent(id,chapterPageIndex, title, contentBuilder.toString());
                         chapterPageIndex++;
                     }
@@ -95,7 +95,6 @@ public class AnalysisBook {
         }
         if (contentBuilder.length() > 0) {
             saveDurChapterContent(id,chapterPageIndex, title, contentBuilder.toString());
-//            Log.e("zs","---------content------>"+contentBuilder.toString());
             contentBuilder.delete(0, contentBuilder.length());
             title = null;
         }

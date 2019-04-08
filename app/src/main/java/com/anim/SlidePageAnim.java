@@ -2,10 +2,11 @@ package com.anim;
 
 import android.graphics.Canvas;
 import android.graphics.Rect;
+import android.util.Log;
 import android.view.View;
 
 /**
- * 翻页
+ * 左右滑动
  */
 
 public class SlidePageAnim extends HorizonPageAnim {
@@ -35,6 +36,7 @@ public class SlidePageAnim extends HorizonPageAnim {
             case NEXT:
                 //左半边的剩余区域
                 dis = (int) (mScreenWidth - mStartX + mTouchX);
+                Log.e("zymyy","--------------------->"+mTouchX+"--"+mStartX+"--"+mScreenWidth);
                 if (dis > mScreenWidth){
                     dis = mScreenWidth;
                 }

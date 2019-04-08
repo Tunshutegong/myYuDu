@@ -301,7 +301,7 @@ public class SimulationPageAnim extends HorizonPageAnim{
         mMatrix.setValues(mMatrixArray);
         mMatrix.preTranslate(-mBezierControl1.x, -mBezierControl1.y);
         mMatrix.postTranslate(mBezierControl1.x, mBezierControl1.y);
-        canvas.drawBitmap(bitmap, mMatrix, mPaint);
+//        canvas.drawBitmap(bitmap, mMatrix, mPaint);
         // canvas.drawBitmap(bitmap, mMatrix, null);
         mPaint.setColorFilter(null);
 
